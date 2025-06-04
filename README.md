@@ -155,21 +155,6 @@ Performance: 29.2 FPS
 - `benchmark_results.json` (detailed performance metrics)
 - `performance_comparison.png` (visual charts)
 
-## 🔧 System Requirements
-
-### Minimum (10-15 FPS)
-- CPU: Intel i5 / AMD Ryzen 5
-- RAM: 8GB
-- Camera: USB webcam
-- Storage: 2GB free space
-
-### Recommended (20-30+ FPS)
-- CPU: Intel i7 / AMD Ryzen 7
-- RAM: 16GB
-- GPU: NVIDIA GTX 1060+
-- Camera: HD webcam
-- Storage: 5GB free space
-
 ## 🐛 Troubleshooting
 
 ### Common Issues
@@ -229,28 +214,8 @@ realtime-yolo/
 
 ## 🚀 Performance Benchmarks
 
-Tested on MacBook Pro M1:
+Tested on Mac Mini M4(Cpu):
 - **YOLOv8 Nano**: 28.8 FPS average (99.8% frames >15 FPS)
 - **YOLOv8 Small**: 15.0 FPS average (46.3% frames >15 FPS)  
 - **YOLOv8 Medium**: 7.6 FPS average (0% frames >15 FPS)
 
-## 📄 License
-
-This project uses Ultralytics YOLOv8 under the AGPL-3.0 license.
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Commit changes: `git commit -am 'Add feature'`
-4. Push to branch: `git push origin feature-name`
-5. Submit a Pull Request
-
-## 📞 Support
-
-- **Issues**: Open a GitHub issue
-- **Questions**: Check troubleshooting section
-- **Performance**: Run `python benchmark.py` for optimization
-
----
-**⚡ Ready to detect objects in real-time? Run `python object_detector.py` and point your camera at some objects!**
